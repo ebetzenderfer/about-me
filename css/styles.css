@@ -1,0 +1,173 @@
+body {
+  background-color: #155e63;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+hr {
+  border: dotted #155e63 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat',sans-serif;
+}
+
+a:hover {
+  color: #66bfbf;
+}
+
+.copyright {
+  color: #66bfbf;
+  font-size: .75rem;
+  padding: 20px 0;
+}
+
+.header01 {
+  font-weight: normal;
+  line-height: 2;
+}
+
+.topBox {
+  background-color: #f2f4fb;
+  padding-top: 100px;
+  /*relative to where it would be in the natural html flow*/
+  position: relative;
+
+
+}
+
+.bne-img {
+
+  height: 200px;
+  width: 250px;
+}
+
+.bottomCloud {
+  left: 200px;
+  /*positioned absolute to the div container it is in*/
+  position: absolute;
+  top: 500px;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.middle-container {
+  background-color: #f2f4fb;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #e0ffcd;
+  padding: 50px 0 20px;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+    line-height: 2;
+  /*shorthand left/right and then top/bottom*/
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+
+}
+/*This is used to clear the left side of the paragraph, forcing it to a new line
+.clear-p1 {
+  clear: left;
+}
+This is the same but backwards
+.clear-p2 {
+  clear: right;
+}
+*/
+.giphy-embed-programmer {
+  background-color: #155e63;
+  /*make a circle background behind the image*/
+  border-radius: 100%;
+  /*make the text wrap up to the image*/
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.giphy-embed-tshirt {
+  background-color: #8b104e;
+  border-radius: 100%;
+  /*should only use float to wrap text arouond an element*/
+  float: right;
+  margin-left: 30px ;
+  width: 25%;
+}
+
+.butn {
+  background: #68c92c;
+  background-image: -webkit-linear-gradient(top, #68c92c, #15425e);
+  background-image: -moz-linear-gradient(top, #68c92c, #15425e);
+  background-image: -ms-linear-gradient(top, #68c92c, #15425e);
+  background-image: -o-linear-gradient(top, #68c92c, #15425e);
+  background-image: linear-gradient(to bottom, #68c92c, #15425e);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  text-shadow: 4px 4px 4px #0a010a;
+  -webkit-box-shadow: 4px 4px 3px #666666;
+  -moz-box-shadow: 4px 4px 3px #666666;
+  box-shadow: 4px 4px 3px #666666;
+  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+
+}
+
+a {
+  color: #46443E;
+}
+
+.btm-p {
+  margin-bottom: 50px;
+}
+
+.butn:hover {
+  background: #3baff7;
+  text-decoration: none;
+}
